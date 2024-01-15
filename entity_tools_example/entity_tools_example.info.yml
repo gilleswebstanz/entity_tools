@@ -1,0 +1,7 @@
+name: Entity Tools Example
+type: module
+description: Demonstrates how the Entity Tools module can be used.
+core_version_requirement: ^8 || ^9 || ^10
+package: Other
+dependencies:
+  - entity_tools:entity_tools
