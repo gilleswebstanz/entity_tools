@@ -77,7 +77,7 @@ abstract class AbstractEntityQuery implements EntityQueryInterface {
    * {@inheritdoc}
    */
   public function execute() {
-    return $this->coreEntityQuery->execute();
+    return $this->coreEntityQuery->accessCheck(false)->execute();
   }
 
 }
